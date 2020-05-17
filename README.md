@@ -60,7 +60,7 @@ http://localhost/bw_wordpress
 
 ## Notes
 
-1. I have done the three columns which are shown in the homepage.
+1. Using a child theme from parent theme twenty fourteen, I have done the three columns in the footer which are shown in the homepage.
 
 2. The columns can be added and removed (maximum of three). The width of each coulumn adjusts to fill in the width of the page according to the number of columns.
 
