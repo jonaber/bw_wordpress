@@ -4,7 +4,7 @@ This wordpress contains an example of three different widgets using a foreign ex
 
 
 ## Prerequisites
-PHP Version 7.3.17
+PHP Version 7.3.17  
 MySQL
 
 
