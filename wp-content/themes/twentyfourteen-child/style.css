@@ -1,0 +1,113 @@
+/*
+Theme Name: Twenty Fourteen
+Theme URI: https://wordpress.org/themes/twentyfourteen/
+Author: Jonathan Aber
+Author URI: https://wordpress.org/
+Description: Twenty Fourteen Child Theme 
+Version: 1.0.0
+Template: twentyfourteen
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, news, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-menu, editor-style, featured-images, flexible-header, footer-widgets, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: twentyfourteen
+*/
+
+
+@keyframes slide {
+  from { left:100%; transform: translate(0, 0); }
+  to { left: -100%; transform: translate(-100%, 0); }
+}
+@-webkit-keyframes slide {
+  from { left:100%; transform: translate(0, 0); }
+  to { left: -100%; transform: translate(-100%, 0); }
+}
+
+.marquee { 
+  color:red; 
+  background:#343a40;
+  width:100%;
+  height:120px;
+  line-height:120px;
+  overflow:hidden;
+  position:relative;
+}
+
+.text {
+  position:absolute;
+  top:0;
+  white-space: nowrap;
+  height:120px;
+  font-size:30px;
+  animation-name: slide;
+  animation-duration: 250s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: slide;
+  -webkit-animation-duration: 250s;
+  -webkit-animation-timing-function:linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.text > span {
+	border: 1px solid #fff;
+	padding: 5px;
+	margin-right: 10px;
+	color: #fff;
+}
+
+
+.currency {
+	height: 36px;
+	width: 20%;
+	padding-top: 1px;
+    font-size: 1.1em;
+	font-weight: bold;
+}
+
+
+
+#euroValue,
+#currValue {
+	width: 30%;
+	height: 36px;
+	border-radius: 3px;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#convert {
+	width: 50%;
+	height: 38px;
+	border-radius: 3px;
+	background: #24A0ED;
+}
+
+#widgetCurrency {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#eurLabel {
+	font-size: 1.1em;
+	font-weight: bold;
+	width:20%;
+	height: 36px;
+	border-radius: 3px;
+}
+
+.site {
+
+background-color: #fff;
+max-width: 100%;
+position: relative;
+}
+
+.site-header {
+
+background-color: #000;
+max-width: 100%;
+position: relative;
+width: 100%;
+z-index: 4;
+}
+
